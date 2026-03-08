@@ -47,6 +47,9 @@
     <Reference Include="Capa_Vista_CheckList_Entrevista">
       <HintPath>..\..\Proceso 6 CheckList Entrevista Pedro Ibañez\CheckList_Entrevista\Capa_Vista_CheckList_Entrevista\bin\Debug\Capa_Vista_CheckList_Entrevista.dll</HintPath>
     </Reference>
+    <Reference Include="Capa_Vista_Datos_Adicionales">
+      <HintPath>..\..\Proceso 2 Ingreso Datos Adicionales\Datos_Adicionales\Capa_Vista_Datos_Adicionales\bin\Debug\Capa_Vista_Datos_Adicionales.dll</HintPath>
+    </Reference>
     <Reference Include="Capa_Vista_Datos_Cliente">
       <HintPath>..\..\proceso2-ingreso-datos-cliente\Datos_Cliente\Capa_Vista_Datos_Cliente\bin\Debug\Capa_Vista_Datos_Cliente.dll</HintPath>
     </Reference>
@@ -56,10 +59,6 @@
     </Reference>
     <Reference Include="Capa_Vista_Reporteador">
       <HintPath>..\..\..\..\componentes\reporteador\reporteador\Capa_Vista_Reporteador\bin\Debug\Capa_Vista_Reporteador.dll</HintPath>
-    </Reference>
-    <Reference Include="Capa_Vista_Seguridad, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\componentes\seguridad\SeguridadMVC\SeguridadMVC\CapaVista\bin\Debug\Capa_Vista_Seguridad.dll</HintPath>
     </Reference>
     <Reference Include="Capa_Vista_ValidarCliente">
       <HintPath>..\..\Proceso5-ValidarDatosCliente\ValidarCliente_MVC\Capa_Vista_ValidarCliente\bin\Debug\Capa_Vista_ValidarCliente.dll</HintPath>
@@ -124,9 +123,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

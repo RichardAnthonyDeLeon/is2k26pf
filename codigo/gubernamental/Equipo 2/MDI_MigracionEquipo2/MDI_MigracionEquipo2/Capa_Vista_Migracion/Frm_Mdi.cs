@@ -13,7 +13,8 @@ using Capa_Vista_Datos_Cliente;
 using CapaVistaAlertas;
 using Capa_Vista_Reporteador;
 using Capa_Vista_ValidarCliente;
-using Capa_Vista_Seguridad;
+using Capa_Vista_Datos_Adicionales;
+
 namespace Capa_Vista_Migracion
 {
     public partial class Frm_Mdi : Form
@@ -88,10 +89,22 @@ namespace Capa_Vista_Migracion
             alertas.ShowDialog();
         }
 
-        private void seguridadToolStripMenuItem_Click(object sender, EventArgs e)
+        private void datosAdicionalesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_Seguridad seguridad = new Frm_Seguridad();
-            seguridad.ShowDialog();
+            Frm_Datos_Adicionales frm_datosA = new Frm_Datos_Adicionales();
+            frm_datosA.ShowDialog();
+        }
+
+        private void tipoTramiteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Mantenimiento_Tipo_Tramite Tipo_Tramite = new Frm_Mantenimiento_Tipo_Tramite();
+            Tipo_Tramite.ShowDialog();
+        }
+
+        private void tipoAtencionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Mantenimiento_Tipo_Atencion Tipo_Atencion = new Frm_Mantenimiento_Tipo_Atencion();
+            Tipo_Atencion.ShowDialog();
         }
     }
 }

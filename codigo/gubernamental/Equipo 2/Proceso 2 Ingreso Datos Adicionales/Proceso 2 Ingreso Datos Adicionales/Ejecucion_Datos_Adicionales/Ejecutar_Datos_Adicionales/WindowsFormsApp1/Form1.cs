@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Vista_Datos_Adicionales
+namespace WindowsFormsApp1
 {
-    public partial class Frm_Datos_Adicionales : Form
+    public partial class Form1 : Form
     {
-        public Frm_Datos_Adicionales()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void Lbl_Personas_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
