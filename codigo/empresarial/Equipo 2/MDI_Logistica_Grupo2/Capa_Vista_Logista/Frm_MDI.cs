@@ -44,5 +44,11 @@ namespace Capa_Vista_Logista
             Frm_Vendedores vendedores = new Frm_Vendedores();
              vendedores.ShowDialog();
         }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Clientes Clientes = new Frm_Clientes();
+            Clientes.ShowDialog();
+        }
     }
 }
