@@ -69,12 +69,6 @@
       <DependentUpon>Reporte_Empresas_Transporte.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Rpt_Empresa_Transporte.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Rpt_Empresa_Transporte.Designer.cs">
-      <DependentUpon>Rpt_Empresa_Transporte.cs</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Frm_Empresa_Transporte.resx">
@@ -83,9 +77,6 @@
     <EmbeddedResource Include="Reporte_Empresas_Transporte.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Reporte_Empresas_Transporte.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Rpt_Empresa_Transporte.resx">
-      <DependentUpon>Rpt_Empresa_Transporte.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

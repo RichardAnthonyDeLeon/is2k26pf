@@ -42,7 +42,7 @@
       <HintPath>..\..\Proceso4 Mantenimiento Transporte Sergio Izeppi\Capa_Vista_Empresa_Transporte\Capa_Vista_Empresa_Transporte\bin\Debug\Capa_Vista_Empresa_Transporte.dll</HintPath>
     </Reference>
     <Reference Include="Capa_Vista_LineaProd">
-      <HintPath>..\..\Proceso5-MantenimientoLineaProducto\P5KenphLunaMantLinea\Capa_Vista_LineaProd\bin\Debug\Capa_Vista_LineaProd.dll</HintPath>
+      <HintPath>..\..\Proceso 5-MantenimientoLineaProducto\P5KenphLunaMantLinea\Capa_Vista_LineaProd\bin\Debug\Capa_Vista_LineaProd.dll</HintPath>
     </Reference>
     <Reference Include="Capa_vista_Mantenimiento_Proveedores">
       <HintPath>..\..\Proceso 2 Proveesores Macos velásquez\Mantenimiento Proveedores\Mantenimiento Proveedores\bin\Debug\Capa_vista_Mantenimiento_Proveedores.dll</HintPath>
